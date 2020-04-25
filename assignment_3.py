@@ -21,4 +21,4 @@ if rpt==True:
     print(given, "is an Armstrong number")
   else:
     print(given, "is NOT an Armstrong number")
-    print("deneme")
+    
