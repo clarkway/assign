@@ -8,3 +8,5 @@ for j in range(2,n+1):
   if total==1:
     prime.append(j)
 print(prime)
+
+
