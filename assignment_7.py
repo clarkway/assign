@@ -1,13 +1,12 @@
-leap=int(input("write a year :"))
-
-if leap%100==0:
-  if leap%400==0 and leap%4==0:
-    print(leap, " is a leap year")
+num=[]
+for i in range(1,101):
+  if i%3==0 and i%5==0:
+    num.append("FizzBuzz")
+  elif i%3==0:
+    num.append("Fizz")
+  elif i%5==0:
+    num.append("Buzz")
   else:
-    print(leap, " is NOT a leap year")
-else:
-  if leap%4==0:
-    print(leap, " is a leap year")
-  else:
-    print(leap, " is NOT a leap year")
+    num.append(i)
+print (num)
 
